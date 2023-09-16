@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.login-form {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sub {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.sub a {
+    text-decoration: none;
+    color: blue;
+    padding: 2%;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.sub a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*Registration Page*/
+
+

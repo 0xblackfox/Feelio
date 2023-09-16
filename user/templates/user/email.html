@@ -1,0 +1,41 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Account Registration Confirmation">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Your Name">
+    <title>{{ title }}</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+            <td style="padding: 20px 0; text-align: center; background-color: #007bff; color: #fff;">
+                <h1>Welcome to Our Website!</h1>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 20px;">
+                <p>Dear {{ username }},</p>
+                <p>Thank you for registering an account with our website. Your registration was successful!</p>
+                <p>You can now log in to your account and start enjoying our services.</p>
+                <p>If you have any questions or need assistance, please feel free to contact us.</p>
+                <p>Activation Link: <a href="{{ activation_link }}">Click here to activate your account</a></p>
+                <p>Best regards,<br>Kazi Ashikur Rahman</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: #007bff; color: #fff; text-align: center; padding: 10px;">
+                &copy; {{ year }} Fellio All rights reserved.
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
